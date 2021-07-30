@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener",
+  "version": "0.0.1",
+  "description": "A Website That Make Any Long Url Link Into A Short One",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.3",
+    "ejs": "^3.1.5",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/NawrasseDahman/url-shortener"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
